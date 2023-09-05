@@ -1,0 +1,30 @@
+.op {
+  /* background-color: #0b041a; */
+  background-color: #000000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 100px;
+  min-width: 400px;
+  transition: all 0.1s;
+}
+
+.op:hover {
+  background-color: #0d0d0d;
+}
+
+#options-container .op p {
+  margin-bottom: 0;
+  font-weight: 400;
+}
+
+.correct {
+  background-color: #0bfc03;
+}
+
+.wrong {
+  background-color: #0b041a;
+
+  opacity: 0.7;
+}
